@@ -12,12 +12,12 @@ const AcercaDe = () => {
                         <img src={FotoPerfil} alt="Desarrollador Web | Felipe Aguilar" />
                     </div>
                     <div className='col-12 col-md-6'>
-                        <h2>"hola"</h2>
+                        <h2>¡Hola!</h2>
                         <p>
-                            Ingeniero en Informática egresado de la Universidad Politécnica del Valle de México. 
+                            Mi nombre es Felipe de Jesús Aguilar García, Ingeniero en Informática egresado de la Universidad Politécnica del Valle de México. 
                         </p>
                         <p>
-                            Con más de 1 año de experiencia en Ecommerce 
+                            Con más de 2 años de experiencia en Ecommerce y Desarrollo Front - End, trabajando con diferentes CMS y desarrollando tareas automatizadas de Tiendas Online, haciendo uso de herramientas Front - End, Back - End y Bases de Datos.
                         </p>
                     </div>
                 </div>

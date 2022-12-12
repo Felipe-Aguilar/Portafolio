@@ -17,6 +17,7 @@ import gitLogo from '../assets/gitLogo.png';
 import githubLogo from '../assets/githubLogo.png';
 
 const SoftSkills = () => {
+
     return ( 
         <SoftSkillsContenedor className='container'>
             <section id='SoftSkills'>
