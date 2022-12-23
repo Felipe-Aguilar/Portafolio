@@ -23,6 +23,7 @@ const Portafolio = () => {
 
             <div className='row justify-content-center mt-5'>
                 <Routes>
+                    <Route path='*' element={<PortafolioTrabajos/>}/>
                     <Route path='/portafolio-trabajos' element={<PortafolioTrabajos/>}/>
                     <Route path='/proyectos' element={<Proyectos/>}/>
                 </Routes>

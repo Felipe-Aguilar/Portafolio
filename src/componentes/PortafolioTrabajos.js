@@ -5,6 +5,8 @@ import Goza from '../assets/Goza.jpg';
 import Yalogics from '../assets/Yalogics.png';
 import Dkassa from '../assets/Dkassa.png';
 import South from '../assets/SouthDental.png';
+import Cigars from '../assets/Cigars.png';
+import Babel from '../assets/Babel.png';
 
 import html from '../assets/html.svg';
 import css from '../assets/css.svg';
@@ -164,7 +166,82 @@ const PortafolioTrabajos = () => {
                     </div>
                 </div>
             </PortafolioTrabajosContenedor>
-        
+
+            <PortafolioTrabajosContenedor className='col-12 col-md-10 mt-5'>
+                <div className='row contenedor-trabajo'>
+                    <div className='col-12 col-md-6'>
+                        <img src={Cigars} alt="Desarrollador Web | Felipe Aguilar Portafolio" className='img-fluid'/>
+                    </div>
+                    <div className='col-12 col-md-6'>
+                        <h2>Cigars & Luxury</h2>
+                        <p>
+                            Ecommerce de habanos en México.
+                        </p>
+                        <p>
+                            Sitio con restricción de edad a +18 con pasarela de pagos PayPal. Envíos automatizados. 
+                        </p>
+                        <a href="https://cigarsandluxury.com/" target={"_blank"}>
+                            Visitar Sitio <i className="bi bi-link-45deg"></i>
+                        </a>
+                        
+                        <div className='tecnologias'>
+                            <h3>Tecnologías</h3>
+
+                            <a href="https://wordpress.com/es/" target={"_blank"}>
+                                <i className="bi bi-wordpress"></i> Wordpress
+                            </a>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target={"_blank"}>
+                                <img src={html} alt="Desarrollador web | Felipe Aguilar" /> HTML
+                            </a>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target={"_blank"}>
+                                <img src={css} alt="Desarrollador web | Felipe Aguilar" /> CSS
+                            </a>
+                            <a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/" target={"_blank"}>
+                                <i className="bi bi-bootstrap-fill"></i> Bootstrap
+                            </a>
+                            <a href="https://devdocs.io/javascript/" target={"_blank"}>
+                                JavaScript
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </PortafolioTrabajosContenedor>
+
+            <PortafolioTrabajosContenedor className='col-12 col-md-10 mt-5'>
+                <div className='row contenedor-trabajo'>
+                    <div className='col-12 col-md-6'>
+                        <img src={Babel} alt="Desarrollador Web | Felipe Aguilar Portafolio" className='img-fluid'/>
+                    </div>
+                    <div className='col-12 col-md-6'>
+                        <h2>Babel Traductores</h2>
+                        <p>
+                            Servicios de Traducción en Monterrey Nuevo León. 
+                        </p>
+                        <p>
+                            Sitio informativo dinámico y diferente a solicitud del cliente, para brindar servicios de traducción de documentos y eventos.
+                        </p>
+                        <a href="https://babeltraductores.com.mx/" target={"_blank"}>
+                            Visitar Sitio <i className="bi bi-link-45deg"></i>
+                        </a>
+                        
+                        <div className='tecnologias'>
+                            <h3>Tecnologías</h3>
+
+                            <a href="https://wordpress.com/es/" target={"_blank"}>
+                                <i className="bi bi-wordpress"></i> Wordpress
+                            </a>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target={"_blank"}>
+                                <img src={html} alt="Desarrollador web | Felipe Aguilar" /> HTML
+                            </a>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target={"_blank"}>
+                                <img src={css} alt="Desarrollador web | Felipe Aguilar" /> CSS
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </PortafolioTrabajosContenedor>
         </>
     );
 }
