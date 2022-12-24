@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Goza from '../assets/Goza.jpg';
+import Goza from '../assets/Goza1.jpg';
 import Yalogics from '../assets/Yalogics.png';
-import Dkassa from '../assets/Dkassa.png';
-import South from '../assets/SouthDental.png';
-import Cigars from '../assets/Cigars.png';
-import Babel from '../assets/Babel.png';
+import Dkassa from '../assets/Dkassa1.jpg';
+import South from '../assets/South1.jpg';
+import Cigars from '../assets/Cigars1.jpg';
+import Babel from '../assets/Babel1.jpg';
 
 import html from '../assets/html.svg';
 import css from '../assets/css.svg';
@@ -19,7 +19,7 @@ const PortafolioTrabajos = () => {
             <PortafolioTrabajosContenedor className='col-12 col-md-10'>
                 <div className='row contenedor-trabajo'>
                     <div className='col-12 col-md-6'>
-                        {/* <img src={Goza} alt="Desarrollador Web | Felipe Aguilar Portafolio" className='img-fluid'/> */}
+                        <img src={Goza} alt="Desarrollador Web | Felipe Aguilar Portafolio" className='img-fluid'/>
                     </div>
                     <div className='col-12 col-md-6'>
                         <h2>Goza Mx</h2>
