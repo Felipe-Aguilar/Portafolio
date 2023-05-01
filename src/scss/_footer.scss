@@ -1,0 +1,13 @@
+footer{
+    background: #282828;
+    padding: 20px;
+
+    @media screen and (max-width: 575px){
+        padding: 30px 20px;
+    }
+
+    p{
+        margin: 0;
+        font-size: .9rem;
+    }
+}

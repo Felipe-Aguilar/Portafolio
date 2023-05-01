@@ -1,0 +1,118 @@
+$colorHover: #d6dfce;
+
+.vista-portafolio{
+    background: radial-gradient(circle, transparent 20%, #282828 20%, #282828 80%, transparent 80%, transparent) 0% 0% / 64px 64px, radial-gradient(circle, transparent 20%, #282828 20%, #282828 80%, transparent 80%, transparent) 32px 32px / 64px 64px, linear-gradient(#59634f 2px, transparent 2px) 0px -1px / 32px 32px, linear-gradient(90deg, #59634f 2px, #282828 2px) -1px 0px / 32px 32px #282828;
+    background-color: #282828;
+
+    padding: 30px;
+
+    .encabezado{
+        margin-bottom: 50px;
+        div{
+            display: flex;
+            gap: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 25px;
+            transition: all .3s ease;
+
+            &:focus{
+                color: $colorHover;
+                text-decoration: underline 3px solid $colorHover;
+            }
+        }
+        .active{
+            color: $colorHover;
+            text-decoration: underline 3px solid $colorHover;
+        }
+    }
+
+    .contenedor{
+        background: linear-gradient(120.29deg,hsla(0,0%,100%,.4) 10.65%,hsla(0,0%,100%,.1) 78.78%);
+        backdrop-filter: blur(40px);
+
+        width: 80%;
+        margin: auto;
+        border-radius: 8px;
+        padding: 30px;
+        
+        @media screen and (max-width: 575px){
+            width: 100%;
+            padding: 20px 10px;
+        }
+
+        img{
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        h2{
+            text-transform: uppercase;
+            color: $colorHover;
+
+            @media screen and (max-width: 575px){
+                margin-top: 20px;
+            }
+        }
+
+        a{
+            color: #282828;
+            background-color: #fff;
+            padding: 10px 20px;
+            border: 1px solid transparent;
+            border-radius: 8px;
+            text-decoration: none;
+            
+            
+            i{
+                margin-left: 15px;
+            }
+        }
+
+        .tecnologias{
+            margin-top: 7rem;
+
+            @media screen and (max-width: 575px){
+                margin-top: 5rem;
+            }
+
+            h3{
+                font-size: 20px;
+                text-transform: uppercase;
+            }
+
+            div{
+                margin-top: 20px;
+                display: flex;
+                gap: 10px;
+
+                @media screen and (max-width: 575px){
+                    display: block;
+                }
+                
+                a{
+                    pointer-events: none;
+                    @media screen and (max-width: 575px){
+                        padding: 10px;
+                        margin-right: 5px;
+                        margin-bottom: 5px;
+                        display: inline-block;
+                    }
+    
+                    i, svg{
+                        margin-left: 0;
+                        margin-right: 10px;
+                        
+                        @media screen and (max-width: 575px){
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
