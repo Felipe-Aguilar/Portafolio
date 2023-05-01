@@ -1,6 +1,6 @@
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
-import Header from './components/header';
+import Header from './components/Header';
 import Menu from './components/Menu';
 import AcercaDe from './components/AcercaDe';
 import Skills from './components/Skills';
