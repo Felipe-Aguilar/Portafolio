@@ -33,7 +33,7 @@ const Header = () => {
                         </a>
                     </div>
                     <div className='cv'>
-                        <a href="https://drive.google.com/file/d/1O3f-qTul-hXvIK0JjJal8b3_O0wHB7iC/view" target='_blank'>
+                        <a href="https://drive.google.com/file/d/1NDr5TmcLlObmHMoANkP6D_0c4kFOgVke/view?usp=sharing" target='_blank'>
                             Ver CV
                         </a>
                     </div>
